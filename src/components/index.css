@@ -1,0 +1,112 @@
+.crypto-bg-container {
+  background-color: #000000;
+  padding: 18px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-main-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: #00e7ff;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.crypto-main-image {
+  width: 97%;
+  height: 310px;
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
+
+.crypto-table {
+  border: 2px solid #00e7ff;
+  width: 75%;
+  border-radius: 1rem;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+.crypto-table-header-row {
+  background-color: #092e33;
+}
+
+.crypto-table-header-text-coin {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 18px;
+  width: 62%;
+}
+
+.crypto-table-header-text-usd {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 11px;
+  width: 19%;
+}
+
+.crypto-table-header-text-euro {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 11px;
+  width: 19%;
+}
+
+.crypto-table-data-row-coin {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.crypto-logo {
+  width: 28px;
+  margin-right: 5px;
+}
+
+.crypto-currency-name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.crypto-table-data-usd {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 11px;
+}
+
+.crypto-table-data-euro {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 11px;
+}
+
+table th td thead tbody {
+  border-collapse: collapse;
+}
